@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .form-container {
+    background-color: #333333;
+  }
+  
+  body.dark-mode .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: #333333;
+  }
+  
+  body.dark-mode .mat-input-element {
+    color: #ffffff;
+  }
+  
+  body.dark-mode .mat-slide-toggle-thumb {
+    background-color: #ffffff;
+  }
